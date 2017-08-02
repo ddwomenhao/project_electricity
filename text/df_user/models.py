@@ -11,6 +11,3 @@ class user_name(models.Model):
 
     email = models.EmailField(help_text='邮箱')
 
-    creat_time = models.DateTimeField(auto_now_add=True,help_text='创建的时间')
-
-    updae_time = models.DateTimeField(auto_now=True,help_text='更新时间')
